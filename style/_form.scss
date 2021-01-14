@@ -1,3 +1,5 @@
+@import "vars";
+
 .form {
   display: flex;
   flex-direction: column;
@@ -15,6 +17,10 @@
 
   font-size: 16px;
   color: #918D9A;
+
+  @media #{$mobile} {
+    width: 270px;
+  }
 }
 
 .form__group {

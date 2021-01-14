@@ -60,6 +60,7 @@ p {
   text-align: center;
 }
 
+/* Adaptive */
 .form {
   display: flex;
   flex-direction: column;
@@ -75,6 +76,11 @@ p {
   border-radius: 4px;
   font-size: 16px;
   color: #918D9A;
+}
+@media (max-width: 565px) {
+  .form__input {
+    width: 270px;
+  }
 }
 
 .form__group {
@@ -256,12 +262,20 @@ p {
 .btn:hover {
   background-color: #ff4200;
 }
+.btn:active {
+  background-color: #891e00;
+}
 
 .modal__btn {
   display: block;
   width: 370px;
   padding: 0;
   margin: 34px;
+}
+@media (max-width: 565px) {
+  .modal__btn {
+    width: 270px;
+  }
 }
 
 .section {

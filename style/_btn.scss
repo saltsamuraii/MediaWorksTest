@@ -25,6 +25,10 @@
   &:hover {
     background-color: #ff4200;
   }
+
+  &:active {
+    background-color: #891e00;
+  }
 }
 
 .modal__btn {
@@ -33,5 +37,9 @@
   padding: 0;
 
   margin: 34px;
+  
+  @media #{$mobile} {
+    width: 270px;
+  }
 }
 
