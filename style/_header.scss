@@ -23,6 +23,10 @@
   @media #{$notebook} {
     justify-content: space-around;
   }
+
+  @media #{$mobile} {
+    display: block;
+  }
 }
 
 .header__logo {
