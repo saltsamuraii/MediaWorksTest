@@ -1,0 +1,68 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+
+  @media #{$notebook} {
+    justify-content: center;
+  }
+}
+
+.card__body {
+
+  width: 570px;
+  height: 235px;
+
+  padding: 30px;
+  margin: 15px;
+
+  position: relative;
+  background: #F6F5F9;
+  border-radius: 6px;
+
+  @media #{$notebook} {
+    width: 45%;
+  }
+
+  @media #{$mobile} {
+    width: 100%;
+  }
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 22px;
+  font-family: Whitney, sans-serif;
+  font-weight: 600;
+  color: #2E2D35;
+}
+
+.card__text {
+  width: 270px;
+  margin-top: 22px;
+
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  color: #2E2D35;
+}
+
+.card__img {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  left: 65%;
+
+  @media #{$notebook} {
+    width: 35%;
+  }
+
+  @media #{$tablet} {
+    display: none;
+  }
+}

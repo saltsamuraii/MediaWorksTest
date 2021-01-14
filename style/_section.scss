@@ -1,0 +1,25 @@
+.section {
+  margin: 130px 0;
+  padding: 0;
+
+  @media #{$tablet} {
+    margin: 70px 0;
+  }
+}
+.section__title {
+  margin-bottom: 50px;
+  padding: 0;
+
+  font-size: 40px;
+  color: #2E2D35;
+  font-family: Whitney, sans-serif;
+
+  @media #{$tablet} {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  @media #{$mobile} {
+    font-size: 25px;
+  }
+}

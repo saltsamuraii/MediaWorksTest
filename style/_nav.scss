@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  margin-left: 100px;
+
+  font-size: 18px;
+  font-family: Whitney, sans-serif;
+  color: #fff;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+   text-decoration: underline;
+  }
+
+  &:active {
+    color: #36abc7;
+  }
+
+  @media #{$mobile} {
+    margin: 0 30px;
+  }
+}

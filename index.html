@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Test</title>
+</head>
+
+<body>
+
+<!-- Page-wrapper -->
+<div class="page-wrapper">
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="header__logo">
+                    <img src="img/logo.svg" alt="test">
+                </div>
+
+
+                <nav class="nav">
+                    <a href="#" class="nav__link">Клиентам</a>
+                    <a href="#" class="nav__link modal__open">
+                        <i class="far fa-user-circle"></i>
+                        Войти
+                    </a>
+                </nav>
+            </div> <!-- /.header__inner -->
+
+            <div class="header__content">
+                <h1 class="header__title">Подбор авто в лизинг по выгодной цене</h1>
+                <p class="header__text">IT платформа по быстрому поиску автомобиля от официальных дилеров РФ</p>
+                <button class="btn">Регистрация</button>
+
+                <div class="header__img">
+                    <img src="img/1st.svg" alt="">
+                </div>
+            </div> <!-- /.header__content -->
+
+        </div>  <!-- /.container -->
+    </header> <!-- /.header -->
+
+
+    <!-- Features -->
+    <section class="section">
+        <div class="container">
+
+            <h2 class="section__title">Меньше условий – больше возможностей</h2>
+
+            <div class="cards">
+                <div class="card__body">
+                    <div class="card__item">
+                        <h3 class="card__title">Экономия времени</h3>
+                        <p class="card__text">Дополнительный канал потенциальных клиентов, готовых приобрести
+                            автомобиль,
+                            без затрат на рекламу и маркетинг.
+                        </p>
+                        <img class="card__img" src="img/features/time.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <h3 class="card__title">Никаких задержек</h3>
+                        <p class="card__text">Вы получаете запросы сразу же после отправки клиентом.</p>
+                        <img class="card__img" src="img/features/speed.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <h3 class="card__title">Максимальная <br>информативность</h3>
+                        <p class="card__text">В каждой заявке указан регион поиска, марка и модель авто, а так же
+                            индивидуальные запросы клиента.
+                        </p>
+                        <img class="card__img" src="img/features/info.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <div class="card__item">
+                        <h3 class="card__title">Удобство общения</h3>
+                        <p class="card__text">Для каждого запроса у вас открыт чат
+                            с клиентом с возможностью отправки документов.
+                        </p>
+                        <img class="card__img" src="img/features/chat.svg" alt="">
+                    </div>
+                </div>
+
+            </div> <!-- /.cards -->
+
+        </div> <!-- /.container -->
+    </section> <!-- /.section -->
+
+
+    <!-- Banner -->
+    <section class="section">
+        <div class="container">
+            <div class="banner">
+                <div class="banner__content">
+                    <p class="banner__text">Регистрируйся и получай актуальные запросы на автомобили от
+                        заинтерисованных
+                        клиентов
+                    </p>
+                    <button class="btn">Регистрация</button>
+                </div>
+                <div class="banner__img">
+                    <img src="img/banner.png" alt="">
+                </div>
+            </div> <!-- /.banner-->
+
+        </div> <!-- /.container -->
+    </section> <!-- /.section -->
+
+    <div class="modal-bg">
+        <div class="modal">
+            <img class="modal__close" src="img/close.svg" alt="">
+            <h4 class="modal__title">Авторизация</h4>
+            <div class="modal__content">
+                <form class="form" action="">
+                    <div class="form__group">
+                        <label class="form__label" for="input-email">E-mail</label>
+                        <input class="form__input" type="email" name="modal__form" id="input-email" placeholder="Введите e-mail">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="input-password">Пароль</label>
+                        <input class="form__input" type="password" name="modal__form" id="input-password" placeholder="Введите пароль">
+                    </div>
+
+                    <button class="btn modal__btn">Войти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- /.page-wrapper -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
