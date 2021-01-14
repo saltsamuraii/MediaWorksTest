@@ -6,10 +6,6 @@
   border-radius: 10px;
 
   @media #{$tablet} {
-    max-width: 100%;
-  }
-
-  @media #{$mobile} {
     margin: 0 15px;
     height: auto;
   }

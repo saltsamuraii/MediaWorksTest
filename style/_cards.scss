@@ -24,8 +24,11 @@
     width: 45%;
   }
 
-  @media #{$mobile} {
+  @media #{$tablet} {
     width: 100%;
+  }
+
+  @media #{$mobile} {
     height: 100%;
   }
 }
@@ -33,6 +36,10 @@
 .card__item {
   display: flex;
   flex-direction: column;
+}
+
+.card__content {
+  padding: 0 30px;
 }
 
 .card__title {
@@ -63,9 +70,16 @@
   }
 
   @media #{$tablet} {
-    position: relative;
-    top: 10px;
-    left: 0;
+    width: 30%;
+
+    top: 0;
     transform: translateY(0);
+  }
+
+  @media #{$mobile} {
+    width: 25%;
+
+    top: 5px;
+    left: 70%;
   }
 }
